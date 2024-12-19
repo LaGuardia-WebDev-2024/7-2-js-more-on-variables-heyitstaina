@@ -23,8 +23,12 @@ void draw(){
   fill(255, 255, 255); // for the whites of the eyes!
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
-  
-
+  ellipse (x-50, y+20, 130, 40)
+ 
+   fill(24, 69, 36); // Pupils
+  rect( x-50, y-50, 10, 10);
+    rect( x+50, y-50, 10, 10);
+x=mouseX
 }
 
 
